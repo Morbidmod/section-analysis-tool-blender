@@ -35,6 +35,3 @@ A Fusion 360-style section analysis tool for Blender 4.2+.
 - Blender 4.2 or higher
 - Python 3.11+
 
-## License
-
-MIT License
