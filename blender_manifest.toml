@@ -29,7 +29,7 @@ blender_version_min = "4.2.0"
 
 # The license under which this add-on is distributed (required)
 license = [
-    "SPDX:MIT",
+    "SPDX:GPL-3.0-or-later",
 ]
 
 # URL to the add-on's homepage or documentation (optional)
