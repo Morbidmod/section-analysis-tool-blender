@@ -1,0 +1,51 @@
+# This is the manifest file for the Section Analysis Tool extension.
+# It replaces the old bl_info dictionary in Blender 4.2+ extensions.
+
+# The schema version (required)
+schema_version = "1.0.0"
+
+# The unique identifier for your add-on (required)
+id = "section_analysis_tool"
+
+# The name of the add-on (required)
+name = "Section Analysis Tool"
+
+# The version of your add-on (required) - must be semantic versioning
+version = "1.0.0"
+
+# A short tagline (required, no trailing period)
+tagline = "Create cross-sections and analyze internal geometry"
+
+# Maintainer name and email (required)
+maintainer = "Morbidmod <contact@morbidmod.com>"
+
+# Add-on type (required): "add-on" or "theme"
+type = "add-on"
+
+# The minimum version of Blender this extension requires (required)
+blender_version_min = "4.2.0"
+# Optional upper bound
+# blender_version_max = "5.2.0"
+
+# The license under which this add-on is distributed (required)
+license = [
+    "SPDX:MIT",
+]
+
+# URL to the add-on's homepage or documentation (optional)
+website = "https://github.com/Morbidmod/section-analysis-tool-blender"
+
+# Tags must come from Blender's predefined tag list for add-ons
+tags = ["3D View", "Mesh", "Modeling"]
+
+# Icon for the add-on (optional)
+icon = "SECTION_ANALYSIS.png"
+
+# A short description of what your add-on does
+description = "Fusion 360-style section analysis tool for Blender"
+
+# List of dependencies required by your add-on (if any)
+# dependencies = []
+
+# Permissions required by your add-on (if any) - must be a table, not a list
+# permissions = {network = "Checks for tool updates"}
